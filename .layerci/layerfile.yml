@@ -1,0 +1,10 @@
+version: 2
+
+frontend: node16
+
+services:
+  - run: npm install
+  - run: npm start
+
+expose:
+  - 3010
